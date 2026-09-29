@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Химчистка мебели в Праге · Cleaning Praha</title>
+  <meta name="description" content="Профессиональная химчистка диванов, матрасов и ковров в Праге. Работаем 24/7. Выезд по Праге бесплатно." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="video-bg">
+    <img class="video-bg__layer is-active" id="bgFrame" src="img/11.jpg" alt="" />
+    <video class="video-bg__layer" id="bgV1" muted playsinline preload="auto"></video>
+    <video class="video-bg__layer" id="bgV2" muted playsinline preload="auto"></video>
+  </div>
+
+  <header class="header">
+    <div class="header-inner">
+      <a href="#" class="logo">
+        <span class="logo-mark">CP</span>
+        <span class="logo-text">Cleaning Praha</span>
+      </a>
+      <nav class="nav">
+        <a href="#services">Услуги</a>
+        <a href="#calculator">Калькулятор</a>
+        <a href="#before-after">До / После</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="header-cta">
+        <a href="tel:+420000000000" class="header-phone">+420 000 000 000</a>
+        <a href="#booking" class="btn btn-primary">Записаться</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="wrap hero-wrap">
+        <div class="hero-grid">
+          <div class="hero-left reveal">
+            <span class="hero-eyebrow">ХИМЧИСТКА МЕБЕЛИ · ПРАГА</span>
+            <h1>Ваша любимая мебель.<br />Снова свежая.</h1>
+            <p class="hero-lead">
+              Профессиональный уход за диванами, матрасами и коврами.
+              У вас дома, бережно к ткани и с вниманием к каждой детали.
+            </p>
+            <div class="hero-actions">
+              <a href="#booking" class="btn btn-light">Возможен выезд уже сегодня</a>
+              <span class="hero-note">Выезд по Праге бесплатно</span>
+            </div>
+          </div>
+          <div class="hero-right">
+            <div class="hero-stats">
+              <div class="stat"><div class="stat-value">5<span>лет</span></div><div class="stat-label">на рынке</div></div>
+              <div class="stat"><div class="stat-value">24/7</div><div class="stat-label">днём и ночью</div></div>
+              <div class="stat"><div class="stat-value">900 Kč</div><div class="stat-label">минимальный заказ</div></div>
+              <div class="stat"><div class="stat-value">0 Kč</div><div class="stat-label">выезд по Праге</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="section-num">01 / Услуги и цены</span>
+          <h2>Чистота в каждой детали.</h2>
+          <p class="section-desc">От любимого кресла до большого дивана. Выберите, чему мы вернём свежесть.</p>
+        </div>
+        <div class="services-grid" id="servicesGrid"></div>
+        <p class="disclaimer">
+          Цены «от» ориентировочные. Точную цену определяет менеджер по фотографиям либо мастер
+          на месте до начала работ. Минимальный заказ — 900 Kč. Выезд по Праге бесплатный.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="calculator">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="section-num">02 / Калькулятор</span>
+          <h2>Начните с чистого дома.</h2>
+          <p class="section-desc">Выберите услуги и сразу узнайте ориентировочную стоимость.</p>
+        </div>
+        <div class="calc-layout">
+          <div class="calc-items" id="calcItems"></div>
+          <aside class="calc-summary">
+            <div class="summary-label">Предварительная стоимость</div>
+            <div class="summary-total" id="calcTotal">от 900 Kč</div>
+            <div class="summary-note">Выезд по Праге бесплатно</div>
+            <div class="summary-note">Минимальный заказ: 900 Kč</div>
+            <a href="#booking" class="btn btn-primary btn-full">Выбрать время</a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section video-section" id="before-after" data-video="1">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="section-num">03 / До и после</span>
+          <h2>До и после</h2>
+          <p class="section-desc">Наглядный пример возможного результата чистки дивана, матраса и ковра.</p>
+        </div>
+        <div class="ba-grid">
+          <figure class="ba-card">
+            <div class="ba-image" data-before="До" data-after="После">
+              <div class="ba-half ba-before"></div>
+              <div class="ba-half ba-after"></div>
+              <div class="ba-slider" tabindex="0"><span class="ba-line"></span><span class="ba-handle">⇆</span></div>
+            </div>
+            <figcaption>Диван</figcaption>
+          </figure>
+          <figure class="ba-card">
+            <div class="ba-image" data-before="До" data-after="После">
+              <div class="ba-half ba-before ba-matras"></div>
+              <div class="ba-half ba-after ba-matras"></div>
+              <div class="ba-slider" tabindex="0"><span class="ba-line"></span><span class="ba-handle">⇆</span></div>
+            </div>
+            <figcaption>Матрас</figcaption>
+          </figure>
+          <figure class="ba-card">
+            <div class="ba-image" data-before="До" data-after="После">
+              <div class="ba-half ba-before ba-carpet"></div>
+              <div class="ba-half ba-after ba-carpet"></div>
+              <div class="ba-slider" tabindex="0"><span class="ba-line"></span><span class="ba-handle">⇆</span></div>
+            </div>
+            <figcaption>Ковёр</figcaption>
+          </figure>
+        </div>
+        <p class="disclaimer">
+          Иллюстративная визуализация. Фактический результат зависит от материала,
+          возраста и типа загрязнения.
+        </p>
+      </div>
+    </section>
+
+    <section class="section video-section" id="how" data-video="2">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="section-num">04 / Как мы чистим</span>
+          <h2>Глубокая чистка. Бережный уход.</h2>
+          <p class="section-desc">
+            Каждая ткань требует своего подхода. Сначала оценим материал и состояние мебели,
+            затем подберём способ чистки.
+          </p>
+        </div>
+        <div class="features">
+          <div class="feature">
+            <div class="feature-icon">⚙</div>
+            <h3>Профессиональное оборудование</h3>
+            <p>Работаем экстрактором Santoemma Sabrina Maxi.</p>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">✿</div>
+            <h3>Забота о вашей мебели</h3>
+            <p>Подбираем способ чистки под ткань и загрязнение. Цену согласовываем заранее.</p>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">☀</div>
+            <h3>Сушка за 400 Kč</h3>
+            <p>К химчистке можно добавить сушку мебели.</p>
+          </div>
+        </div>
+        <div class="guarantee">
+          <div class="guarantee-value">100%</div>
+          <div class="guarantee-text">Устранение запаха мочи со 100% гарантией.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="booking">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="section-num">05 / Заявка</span>
+          <h2>Когда вам удобно?</h2>
+          <p class="section-desc">
+            Выберите желаемое время. Заявка сохранится, а менеджер подтвердит время отдельно.
+            Часовой пояс — Прага.
+          </p>
+        </div>
+        <form class="booking-form" id="bookingForm" novalidate>
+          <div class="form-grid">
+            <label class="field"><span>Имя</span><input type="text" name="name" required placeholder="Ваше имя" /></label>
+            <label class="field"><span>Телефон</span><input type="tel" name="phone" required placeholder="+420 ..." /></label>
+            <label class="field"><span>Дата</span><input type="date" name="date" required /></label>
+            <label class="field"><span>Время</span><input type="time" name="time" required /></label>
+            <label class="field field-full"><span>Комментарий</span><textarea name="comment" rows="3" placeholder="Адрес, тип мебели, пожелания"></textarea></label>
+          </div>
+          <div class="form-footer">
+            <div class="form-total">Предварительная стоимость вашего заказа <strong id="formTotal">от 900 Kč</strong></div>
+            <button type="submit" class="btn btn-primary">Отправить заявку</button>
+          </div>
+          <div class="form-notes">
+            <span>Выезд по Праге бесплатно</span>
+            <span>Минимальный заказ: 900 Kč</span>
+          </div>
+          <p class="form-small">Данные формы используются для обработки заявки и подтверждения времени.</p>
+          <div class="form-success" id="formSuccess" hidden>
+            Спасибо! Заявка отправлена — менеджер свяжется с вами для подтверждения времени.
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="section-num">FAQ</span>
+          <h2>Отвечаем на ваши вопросы</h2>
+        </div>
+        <div class="faq" id="faq"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div>© <span id="year"></span> Cleaning Praha</div>
+      <div class="footer-total">Предварительная стоимость вашего заказа <strong id="footerTotal">от 900 Kč</strong></div>
+      <a href="#booking" class="btn btn-primary">Выбрать время</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
