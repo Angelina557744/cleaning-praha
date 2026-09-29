@@ -681,29 +681,29 @@ main {
 }
 
 .ba-before {
-  background-image: url('../img/ba-sofa-before.jpg');
+  background-image: url('img/ba-sofa-before.jpg');
 }
 
 .ba-after {
-  background-image: url('../img/ba-sofa-after.jpg');
+  background-image: url('img/ba-sofa-after.jpg');
   clip-path: inset(0 50% 0 0);
 }
 
 .ba-matras.ba-before {
-  background-image: url('../img/ba-matras-before.jpg');
+  background-image: url('img/ba-matras-before.jpg');
 }
 
 .ba-matras.ba-after {
-  background-image: url('../img/ba-matras-after.jpg');
+  background-image: url('img/ba-matras-after.jpg');
   clip-path: inset(0 50% 0 0);
 }
 
 .ba-carpet.ba-before {
-  background-image: url('../img/ba-carpet-before.jpg');
+  background-image: url('img/ba-carpet-before.jpg');
 }
 
 .ba-carpet.ba-after {
-  background-image: url('../img/ba-carpet-after.jpg');
+  background-image: url('img/ba-carpet-after.jpg');
   clip-path: inset(0 50% 0 0);
 }
 
